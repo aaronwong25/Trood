@@ -41,7 +41,6 @@ class _LogoPageState extends State<LogoPage> {
                   decoration: BoxDecoration(
                       color: Color(0xffe5e5e5),
                       borderRadius: BorderRadius.circular(50.0)),
-                  // child: Image.asset('assets/images/logo.png'),
                   child: Column(
                     children: [
                       GestureDetector(

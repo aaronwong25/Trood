@@ -87,7 +87,6 @@ class _LoginPageState extends State<LoginPage> {
                 child: Padding(
                     padding: const EdgeInsets.only(
                         left: 15.0, right: 15.0, top: 15, bottom: 0),
-                    //padding: EdgeInsets.symmetric(horizontal: 15),
                     child: TextField(
 
                         obscureText: true,
@@ -98,19 +97,6 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                 ),
             ),
-            // Padding(
-            //   padding: const EdgeInsets.only(
-            //       left: 15.0, right: 15.0, top: 15, bottom: 0),
-            //   //padding: EdgeInsets.symmetric(horizontal: 15),
-            //   child: TextField(
-
-            //     obscureText: true,
-            //     decoration: InputDecoration(
-            //         border: OutlineInputBorder(),
-            //         labelText: 'Password',
-            //         hintText: 'secret'),
-            //   ),
-            // ),
             Container(
                 height: 50,
                 width: 500,
@@ -119,7 +105,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 child: FlatButton(
                 onPressed: (){
-                    //TODO FORGOT PASSWORD SCREEN GOES HERE
+                    //forgot password screen
                 },
                 child: Text(
                     'Forgot Password',
@@ -201,7 +187,7 @@ class _LoginPageState extends State<LoginPage> {
                     padding: const EdgeInsets.only(left:0.0,right: 0.0,top: 0.0,bottom: 75.0),
                     child: FlatButton(
                     onPressed: (){
-                        //TODO FORGOT PASSWORD SCREEN GOES HERE
+                        //create account screen
                     },
                     child: Text(
                         'Create Account',
